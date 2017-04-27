@@ -11,126 +11,6 @@
 
     <style>
       
-      a{
-        position: relative;
-      }
-      .caps {
-        text-transform: uppercase;
-      position: absolute; 
-      font-family: Lato-Bold;
-      font-size: 20px;
-      color: #000000;
-      letter-spacing: 2.45px;
-      width: 1100px;
-      text-align: right;
-      }
-      
-      .header-artist {
-        height: 130px;
-        background-color: skyblue;
-        position: relative;
-        width: 100%;
-      }
-      
-      .logo {
-        background-image: url(Images/Mockup.png);
-        background-size: cover;
-        position: absolute;
-        height: 130px;
-    }
-      
-      .menu {
-        background-color: #EEEEEE;
-        position: relative;
-        height: 89px;
-        width: 100%;
-      }
-      
-      .menu-2 {
-        font-family: Lato-Bold;
-        font-size: 22px;
-        color: #7B7B7B;
-        letter-spacing: 3.78px;
-      }
-      
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      ul {
-        overflow: auto;
-        list-style-type: none;
-      }
-
-      li {
-        height: 50px;
-        float: left;
-        margin-right: 0px;
-        margin-left: 0px;
-        padding: 0px 20px;
-        margin: 30px;
-        width: 300px;
-        position: relative;
-      }
-
-      li:last-child {
-        border-right: none;
-      }
-
-      li a {
-        text-decoration: none;
-        font-family: Lato-Bold;
-        font-size: 22px;
-        color: #7B7B7B;
-        letter-spacing: 3.78px;
-
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-      }
-
-      li a:hover {
-        color: #F3A263;
-      }
-
-      li.active a {
-        font-weight: bold;
-        color: #3FD800;
-      }
-      
-      .img-artist {
-        background-color: white;
-        height: 490px;
-        position: relative;
-      }
-      
-      .speaker-2-img {
-        background-image: url(Images/speaker-2-img.png);
-        background-size: cover;
-        position: relative;
-        height: 327px;
-        width: 384px;
-      }
-      
-      .about-1 {
-        font-family: Lato-Semibold;
-        font-size: 50px;
-        color: #000000;
-        letter-spacing: 3.5px;
-        line-height: 38px;
-        position: relative;
-      }
-      
-      .about-2 {
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        letter-spacing: 1.26px;
-        line-height: 25px;
-        position: relative;
-      }
 
     </style> 
   </head>
@@ -139,37 +19,47 @@
   <div class="container">
       
     <div class="row header-artist">
-      <div class="col-2 logo"></div>
-      <a h class="caps col-1 top-40 right-35">About</a>
-      <a class="caps col-1 top-40 right-20">Speakers</a>
-      <a class="caps col-1 top-40 right-5">Schedule</a>
+      <div href="index.html" class="col-2 left-5 top-1 logo"></div>
+      <a href="index.html" class="caps col-1 top-35 right-35">About</a>
+      <a class="caps col-1 top-35 right-20">Speakers</a>
+      <a class="caps col-1 top-35 right-5">Schedule</a>
     </div>
     
     <div class="row">
-      <div class="menu"> 
+      <div class="menu top-10"> 
         <nav>
+         <div class="artist-head left-20 col-7">
           <ul class="nav">
-            <li><a class="active left-20" href="speaker1.html">Ingrid Burkett</a></li>
-            <li><a href="speaker2.html" class="left-25">Ryan Hubbard</a></li>
-            <li><a href="speaker3.html" class="left-25">Susan S.Szenasy</a></li>
+            <li><a class="active" href="speaker1.html">Ingrid Burkett</a></li>
+            <li><a href="speaker2.html" class="">Ryan Hubbard</a></li>
+            <li><a href="speaker3.html" class="">Susan S.Szenasy</a></li>
           </ul>
+            </div>
         </nav>
       </div>
     </div>
    
-    <div class="row">
-      <div class="img-artist col-6">
-        <div class="speaker-2-img left-20 top-30"></div>
+   <div class="row">
+      <div class="img-artist col-5 left-4">
+        <div class="speaker-img-1 left-13 top-15"></div>
       </div>
-      <div class="img-artist col-6">
-        <div class="about-1 top-35">About</div>
-        <div class="about-2 top-42">Dr Ingrid Burkett is a Social Design Fellow at CSI. She combines a background in social work, economic development, business and graphic design into her work as social designer: designing and co-designing processes, products and knowledge that deepen social impact and facilitate social innovation. She has contributed to the design of services, policy and processes in a diversity of fields, including frontline social, health and disability services, community development, local economic development, social investment, social enterprise and social procurement.
+      <div class="img-artist col-7 right-3 ">
+        <div class="about-1-b top-20">About</div>
+        <div class="about-2 top-25 col-6">Dr Ingrid Burkett is a Social Design Fellow at CSI. She combines a background in social work, economic development, business and graphic design into her work as social designer: designing and co-designing processes, products and knowledge that deepen social impact and facilitate social innovation. She has contributed to the design of services, policy and processes in a diversity of fields, including frontline social, health and disability services, community development, local economic development, social investment, social enterprise and social procurement.
+
+      </div>
+      <div class="about-2 left-8 top-20 col-4">Managing Director, Knode
+Social Design Fellow at CSI
 </div>
+      <div class="media top-25 col-5 left-8">Some Articles</div>
+      <div class="about-2 col-4 top-25 left-8">
+     
+       Co-design for Social Good http://www.design4socialinnovation.com.au
+        So What is Social Design?
+      http://www.design4socialinnovation.com.au
       </div>
     </div>
-
-    
   </div>
-  
+   </div>
  </body>
 </html>
