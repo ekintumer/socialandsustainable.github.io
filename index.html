@@ -7,12 +7,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/style.css">
-    
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-   
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-
+    
     <style>
     </style>
     
@@ -21,12 +17,11 @@
    
     <div class="grid-container">
           
-        <div class="row header w3-bar">
-          
-    	  <a href="#about" class="w3-bar-item w3-button w3-hover-yellow caps col-1 top-0 right-35"><a class="top-35 right-20">About</a></a>
-    	  <a href="#speakers" class="caps col-1 top-40 right-20">Speakers</a>
-    	  <a class="caps col-1 top-40 right-5">Schedule</a>
-    	  <div class="col-5 top-1 left-5 logo"></div>
+        <div class="row header">
+    	  <a href="#about" class="head caps col-1 top-40 right-40">About</a>
+    	  <a href="#speakers" class="head caps col-1 top-40 right-25">Speakers</a>
+    	  <a href="#schedule" class="head caps col-1 top-40 right-10">Schedule</a>
+    	  <a href="index.html" class="col-5 top-1 left-5 logo"></a>
         </div>
         
         <div class="row">
@@ -40,8 +35,7 @@
           <div class="back">
             <h1 class="left-5 col-6 top-30 about">WHAT IS A SOCIAL <br> DESIGNER?</h1>
             <p class="about-1 top-60 left-5 col-7">Within the design world social design is sometimes defined as a design process that contributes to improving human well-being 
-            and livelihood. ... Social design thinking within the design world joins developing human and social capital with new products and processes that are profitable.
-            </p>
+            and livelihood. ... Social design thinking within the design world joins developing human and social capital with new products and processes that are profitable.</p>
             <div class="left-15 top-30 col-4 img-about-1"></div>
           </div>
         </div>
@@ -52,36 +46,42 @@
            <h1 class="about col-7 left-10 top-20">WHAT IS <br> SUSTAINABLE DESIGN?</h1>
            <p class="about-1 col-8 left-40 top-45">Sustainable design seeks to reduce negative impacts on the environment, 
            and the health and comfort of building occupants, thereby improving 
-           building performance. The basic objectives of sustainability are to reduce consumption of non-renewable resources, minimize waste, and create 
-           healthy, productive environments.</p>
+           building performance. The basic objectives of sustainability are to reduce consumption of non-renewable resources, minimize waste, and create healthy, productive environments.</p>
           </div>
         </div>
 			
 		<div class="row">
 		  <div class="gradient">
-		    <p class="gradient-t col-10 left-7 top-10">“You leave this beautiful place today with “creative survival skills” What you will need to keep a steady eye on is your engagement with humanity and the earth that gives us life.”</p>
-		    <p class="anon top-85 right-5">Jaeyoung Cheong</p>
+		    <p class="gradient-t col-10 left-7 top-15">“You leave this beautiful place today with “creative survival skills” What you will need to keep a steady eye on is your engagement with humanity and the earth that gives us life.”</p>
+		</div>
+        </div>
+		
+		<div class="row">
+		  <div class="speaker-back2"></div>
+		</div>
+		
+		<div class="row">
+		  <div class="speaker-back1" id="speakers">
+		    <h class="speakers left-5 top-20">SPEAKERS</h>
 		  </div>
 		</div>
 		
-		<div class="row" id="speakers">
+		<div class="row">
 		  <div class="speaker-back">
-		    <h class="speakers top-25 left-5">SPEAKERS</h>
-		    <div class="speaker-img-1 col-2 left-5 top-40"></div>
-		    <div class="speaker-img-2 col-2 top-40 left-7b"></div>
-            <div class="speaker-img-3 top-40 col-2 left-10"></div>
+		    <a href="speaker1.html" class="speaker-img-1 col-2 left-5 top-15"></a>
+		    <a href="speaker2.html" class="speaker-img-2 col-2 top-15 left-7b"></a>
+            <a href="speaker3.html" class="speaker-img-3 top-15 col-2 left-10"></a>
 		  </div>
 		</div>
 		
 		<div class="row">
           <div class="speaker-back-2">
-            <div class="speaker-1 top-15 left-5 col-3">Ingrid Burkett</div>
-            <div class="job col-3 top-30 right-20">Managing Director, Knode Social Design Fellow at CSI</div>
-            <div class="speaker-1 top-15 right-14 col-3">Ryan Hubbard</div>
-            <div class="job col-3 top-30 right-39">Associate, Co-design + Strategy, TACSI
-            </div>
-            <div class="speaker-1 bottom-2 left-66 col-3">Susan S. Szenasy</div>
-            <div class="job col-3 top-15 left-41">Editor, Architecture, Interior Design Product Design // Metropolis
+            <div class="speaker-1 top-10 left-5 col-3">Ingrid Burkett</div>
+            <div class="job col-3 top-25 right-20">Managing Director, Knode Social Design Fellow at CSI</div>
+            <div class="speaker-1 top-10 right-14 col-3">Ryan Hubbard</div>
+            <div class="job col-3 top-25 right-39">Associate, Co-design + Strategy, TACSI</div>
+            <div class="speaker-1 bottom-5 left-66 col-3">Susan S. Szenasy</div>
+            <div class="job col-4 top-10 left-41">Editor, Architecture, Interior Design Product Design // Metropolis
             </div>
           </div>
 		</div>
@@ -92,7 +92,7 @@
 	
 		<div class="row">
 		  <div class="schedule-back">
-		    <h class="speakers top-40 left-5">SCHEDULE</h>
+		    <h id="schedule" class="speakers top-40 left-5">SCHEDULE</h>
 		    <p class="time top-80 left-5 col-1">9AM</p>
 		    <p class="time top-80 left-20 col-1">10AM</p>
 		    <p class="time top-80 left-28 col-1">10.30AM</p>
@@ -104,7 +104,7 @@
       <div class="row">
        <div class="schedule-back-2">
         <div class="shape-1 left-5 col-1">Speaker #1</div>
-        <div class="shape-1 left-30 col-1">Speaker #1</div>
+        <div class="shape-1 left-30 col-1">Speaker #2</div>
         <div class="shape-2 left-35 col-1">Break</div>
         <div class="shape-2 right-27 col-1">Break</div>
        </div>
@@ -157,14 +157,14 @@
       </div>
       
       <div class="row col-12 footer">
-       
-        <div class="footer-txt top-30 left-40 col-3">About </div>
-        <div class="footer-txt top-30 left-40 col-3"> Speakers</div>
-        <div class="footer-txt top-50 left-15 col-3">Revenue</div>
-        <div class="footer-txt top-50 right-35 col-3">Schedule</div>
+        <div class="footer-t top-35 left-7 col-2">Social & Sustainable </div>
+        <div class="footer-txt top-55 left-10 col-1">About </div>
+        <div class="footer-txt top-55 left-25 col-1"> Speakers</div>
+        <div class="footer-txt top-55 left-5 col-1">Revenue</div>
+        <div class="footer-txt top-55 left-20 col-1">Schedule</div>
+        <div class="left-75 top-60 icons"></div>
       </div>
-
-				
+		
     </div> 
   </body>
 </html>
