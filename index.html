@@ -8,7 +8,26 @@
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+    <script>
+    $(function() {
+  $('a.head').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+    </script>
+
     <style>
     </style>
     
@@ -25,7 +44,7 @@
         </div>
         
         <div class="row">
-          <div class="main top-30 img-1">
+          <div id="main" class="main top-30 img-1">
             <div class="top-25 title">SOCIAL & SUSTAINABLE</div>
             <div class="top-30 right-15 date">April 15, 2017 / 9:00 AM – 3:00 PM</div>
           </div>
@@ -133,7 +152,7 @@
         <div class="conference"></div>
         </div>
         
-      <div class="row col-6">
+      <div id="reveune" class="row col-6">
         <div class="location-back">
           <div class="speakers top-25 left-5">LOCATION</div>
           <div class="location-img top-45 left-5 col-5"></div>
@@ -157,14 +176,16 @@
       </div>
       
       <div class="row col-12 footer">
-        <div class="footer-t top-35 left-7 col-2">Social & Sustainable </div>
-        <div class="footer-txt top-55 left-10 col-1">About </div>
-        <div class="footer-txt top-55 left-25 col-1"> Speakers</div>
-        <div class="footer-txt top-55 left-5 col-1">Revenue</div>
-        <div class="footer-txt top-55 left-20 col-1">Schedule</div>
+        <a href="#main" class="footer-t top-35 left-7 col-2">Social & Sustainable </a>
+        <a href="#about" class="footer-txt top-55 left-10 col-1">About </a>
+        <a href="#speakers" class="footer-txt top-55 left-25 col-1"> Speakers</a>
+        <a href="#reveune" class="footer-txt top-55 left-5 col-1">Revenue</a>
+        <a href="#schedule" class="footer-txt top-55 left-20 col-1">Schedule</a>
         <div class="left-75 top-60 icons"></div>
       </div>
-		
     </div> 
+    
+
+  
   </body>
 </html>

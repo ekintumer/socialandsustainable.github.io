@@ -172,8 +172,13 @@ a.head:hover {
     letter-spacing: 2.62px;
     line-height: 45px;
     position: relative;
+    text-decoration: none;
     
   }
+
+.footer-txt:hover {
+  color: palevioletred;
+}
   
  /* ---img--- */   
   
@@ -645,6 +650,7 @@ color: #FFFFFF;
 letter-spacing: 2.45px;
 line-height: 35px;
 position: relative;
+text-decoration: none;
 }
 
 .about-4 {
@@ -659,3 +665,4 @@ position: relative;
 .about-4:hover {
   color: deepskyblue;
 }
+
