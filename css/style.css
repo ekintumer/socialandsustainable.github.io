@@ -451,6 +451,10 @@ a.head:hover {
   text-align: center;
   line-height: 70px;
   }
+
+ .rsvp:hover {
+  background-color: limegreen;
+}
   
 .divide {
   background-color: white;
